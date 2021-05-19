@@ -7,27 +7,7 @@ into an array using our Task Manager class.
 
 ## Walkthrough
 
-### Step 1: The TaskManager Class
-
-In this step, we'll create a `TaskManager` class that
-will be responsible for managing the tasks in the application.
-
-> #### Useful Resources for this step
-> - [ECMAScript 2015 Classes](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Inheritance#ECMAScript_2015_Classes)
-
-1. Create a `TaskManager` class in `js/taskManager.js`
-2. Within the `constructor` of the `TaskManager` class, initialize a `this.tasks` property on the class equal to an empty array.
-
-> #### Test Your Code!
-> Now is a good chance to test your code, head over to `js/index.js` and do the following
->
-> 1. Initialize a new instance of `TaskManager`
-> 2. `console.log()` the `tasks` property
->
-> **Expected Result**
-> You should see an empty array logged to the browser.
-
-### Step 2: Adding A New Task Programmatically
+### Step 1: Adding A New Task Programmatically
 
 In this step, we'll add a method to the `TaskManager` class that will allow us to add tasks to its `tasks` property.
 
@@ -83,7 +63,7 @@ Notice how each task has a unique `id`? We will be using this `id` in future ste
 > **Expected Result**
 > You should see an array containing the added task logged to the browser.
 
-### Step 4: Adding Tasks With The Form
+### Step 2: Adding Tasks With The Form
 
 In this final step, we will use the `TaskManager` class to keep track of tasks we add with the **New Task** form.
 
@@ -101,7 +81,7 @@ In this final step, we will use the `TaskManager` class to keep track of tasks w
 
 ## Results
 
-We've now set up the `TaskManager` class, created an `addTask` and hooked it up to our **New Task** form!
+We've now created an `addTask` to our Task Manager and hooked it up to our **New Task** form!
 
 Test out your code by adding some tasks using the **New Task** form, and checking the `tasks` array for the new tasks.
 

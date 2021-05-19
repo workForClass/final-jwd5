@@ -16,6 +16,26 @@ In this step, we'll re-organise our folder structure in preparation for the next
 4.  Create a `taskManager.js` file in the `js` folder
 5. Add a `<script>` tag pointing to the `js/taskManager.js` file _before_ the `<script>` tag pointing to the `js/index.js` file.
 
+### Step 2: The TaskManager Class
+
+In this step, we'll create a `TaskManager` class that
+will be responsible for managing the tasks in the application.
+
+> #### Useful Resources for this step
+> - [ECMAScript 2015 Classes](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Inheritance#ECMAScript_2015_Classes)
+
+1. Create a `TaskManager` class in `js/taskManager.js`
+2. Within the `constructor` of the `TaskManager` class, initialize a `this.tasks` property on the class equal to an empty array.
+
+> #### Test Your Code!
+> Now is a good chance to test your code, head over to `js/index.js` and do the following
+>
+> 1. Initialize a new instance of `TaskManager`
+> 2. `console.log()` the `tasks` property
+>
+> **Expected Result**
+> You should see an empty array logged to the browser.
+
 ## Example
 
 Stuck? Check out the provided example in the [example/](example/) folder!

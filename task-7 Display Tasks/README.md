@@ -20,7 +20,7 @@ In this step, we'll create a function using [template literals](https://develope
     - `dueDate`
     - `status`
 
-2. Within this `createTaskHtml` function, create a string using [template literals](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals), copying across one of your tasks that we *harcoded* in earlier from the `index.html`
+2. Within this `createTaskHtml` function, create a string using [template literals](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals), copying across one of your tasks that we *hardcoded* in earlier in task 3 from the `index.html`
 
     For example:
     ```javascript

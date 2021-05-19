@@ -1,5 +1,7 @@
 // Initialize a new TaskManager with currentId set to 0
 const taskManager = new TaskManager(0);
+// As you initialize a new TaskManager above, below is where you can test your code when you finish all the steps
+
 // Select the New Task Form
 const form = document.querySelector("#new-task-form");
 
@@ -15,20 +17,6 @@ form.addEventListener("submit", (event) => {
 
   // Prevent default action
   event.preventDefault();
-
-  // Call this to clear all the form fields after the submission
-  const clearFormFields = () => {
-    validateName.value = "";
-    validateDescription.value = "";
-    validateAssignedTo.value = "";
-    validateStatus.value = "In Progress";
-    validateDueDate.value = "";
-    validateName.classList.remove("is-valid");
-    validateDescription.classList.remove("is-valid");
-    validateAssignedTo.classList.remove("is-valid");
-    validateStatus.classList.remove("is-valid");
-    validateDueDate.classList.remove("is-valid");
-  };
 
   console.log("Task Name :" + validateName.value.length);
   console.log("Task Description :" + validateDescription.value.length);

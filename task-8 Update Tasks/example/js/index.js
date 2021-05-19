@@ -69,6 +69,8 @@ form.addEventListener("submit", (event) => {
     validateAssignedTo.classList.remove("is-valid");
     validationFail++;
   }
+
+  //Form validation that is more advanced for finding due date, was a stretch goal in previous task
   console.log(
     `taskDueDate[2]:${taskDueDate[2]} day:${day} taskDueDate[1]:${taskDueDate[1]} month:${month} taskDueDate[0]:${taskDueDate[0]} year:${year}`
   );
