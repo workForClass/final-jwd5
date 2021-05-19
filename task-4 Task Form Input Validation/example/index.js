@@ -1,11 +1,11 @@
 const form = document.querySelector("#new-task-form");
 
 form.addEventListener("submit", (event) => {
-  const validateName = document.querySelector("#name");
-  const validateDescription = document.querySelector("#description");
-  const validateAssignedTo = document.querySelector("#assigned-to");
-  const validateDueDate = document.querySelector("#due-date");
-  const validateStatus = document.querySelector("#status");
+  const validateName = document.querySelector("#new-task-name");
+  const validateDescription = document.querySelector("#new-task-description");
+  const validateAssignedTo = document.querySelector("#new-task-assigned-to");
+  const validateDueDate = document.querySelector("#new-task-due-date");
+  const validateStatus = document.querySelector("#new-task-status");
   let validationFail = 0;
 
   event.preventDefault();
