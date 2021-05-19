@@ -89,5 +89,15 @@ form.addEventListener("submit", (event) => {
   if (validationFail > 0) {
     validationFail = 0;
     return;
-  } 
+  } else {
+    // Push the valid input into our tasks array
+    taskManager.addTask(
+      validateName.value,
+      validateDescription.value,
+      validateAssignedTo.value,
+      validateDueDate.value,
+      validateStatus.value
+    );
+    clearFormFields();
+  }
 });
