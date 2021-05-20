@@ -11,12 +11,12 @@
 
 * You will work in **groups of 2-3 people** as assigned by the instructor. 
 * This project has **10 tasks** (~3 hours each) divided into **3 Sprints**.
-* Each Sprint will have a **demo** and a **retrospective** at the end following the Scrum methodology.
-* At the end of the project, you and your group will do a **final project presentation** to the entire class and potentially to a group of employers.
+* Each Sprint will have a sprint **retrospective** in your Sprint Closing session at the end following the Scrum methodology.
+* At the end of the project, you and your group will do a **final project presentation** to the entire class.
 
 ### Assessment criteria
 
-Refer to the [rubric](https://docs.google.com/spreadsheets/d/1WPyC5aAZANBREZ_Z23YLATMUkkP_v65IEY2rdOCLAQ0/edit?usp=sharing) to see how the assessment will be marked.
+Refer to the [rubric](https://docs.google.com/spreadsheets/d/1D_X3AEE_niIYFq0oeebpRGADUsnej6wcjICl9RWUsF0/edit?usp=sharing) to see how the assessment will be marked and what is required for each task.
 
 
 ### Example
