@@ -1,4 +1,4 @@
-# Task 8: Persisting Tasks to LocalStorage
+# Task 9: Persisting Tasks to LocalStorage
 
 ## Description
 
